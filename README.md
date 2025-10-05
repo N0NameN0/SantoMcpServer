@@ -1,5 +1,13 @@
 # SantoMcpServer
-a tiny Mcp Server based on FastMCP with simple enable/disable module tools facilities.
+A tiny Mcp Server based on FastMCP with simple enable/disable module tools facilities.
+
+It use the same mechanism as APACHE config site.
+
+Two directories : 
+
+"tool_available/" ( where you put your modules )
+
+"tool_enabled/"( where you put modules symlink you wanted to be enabled )
 
 ## Installation
 Nothing special, there is a little requirements.txt file with only fastmcp and uvicorn
