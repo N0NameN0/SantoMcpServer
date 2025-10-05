@@ -21,7 +21,7 @@ def register_tool(mcp):
         """return a shortened url via TinyURL service
 
         Args:
-            url: the url to be shortened
+            url: the url to be shortened (required)
             full_name: User name for logging purposes (required)
         """
         logger.info(f"🔧 Tool called: urlshortener() by {full_name}")

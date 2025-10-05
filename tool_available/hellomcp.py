@@ -8,7 +8,7 @@ def register_tool(mcp):
         """return a little hello string
 
         Args:
-            full_name: User name for testing purposes (required)
+            full_name: User name for logging purposes (required)
         """
         logger.info(f"🔧 Tool called: hellomcp() by {full_name}")
         return f"Hello {full_name} !!"
