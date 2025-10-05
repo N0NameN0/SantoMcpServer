@@ -4,6 +4,13 @@ import json
 import os
 from dotenv import load_dotenv
 
+#=== Infos ==================================================================
+# This tool uses TinyURL service to shorten url by using  API call
+# --->  you need a tinyURL API TOKEN <-----
+# then add an entry in .env (in "tool_enabled/" directory) like this : 
+# TINYURL_API_TOKEN=your_tinyurl_api_token_here
+#============================================================================
+
 load_dotenv()
 logger = logging.getLogger(__name__)
 
